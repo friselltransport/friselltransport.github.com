@@ -1,0 +1,8 @@
+/*============ Metropolitan Theme // THEME CSS =============================*/
+@import url(metro.css);
+
+/* Light Pinstripe Background */
+body { background: url(stripe_light.png); }
+
+/* Drop Shadow on Light Pinstripe + Add Border For IE8 and Below */
+#container { box-shadow: 0px 10px 20px #999; border: 1px solid #ccc; }

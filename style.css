@@ -1,0 +1,96 @@
+
+/* Portal */
+
+@import url(theme-metropolitan/light.css);
+
+
+/* Theme - Custom Banner */
+#banner {
+    background-image: url("http://kristofferjansson.typepad.com/.a/6a01901eeaf3c0970b019b00401afd970c-1024wi");
+}
+
+
+
+
+
+/* Custom CSS */
+body {
+background-image: none;
+
+}
+
+#container {
+border-width: 0;
+box-shadow: none;
+width: auto;
+top: 0;
+}
+
+#banner {
+background-repeat: no-repeat;
+background-color: #eaeaea;
+background-position: center bottom;
+border-bottom: 1px solid #cbcbcb;
+}
+
+#banner-inner, #pagebody {
+max-width: 1000px;
+margin: auto;
+}
+
+#banner-description {
+display: none;
+}
+
+#banner-header {
+top: 15px;
+}
+
+#banner-header a {
+font-weight: bold;
+font-size: 35px;
+}
+
+.layout-one-column #alpha {
+padding: 0;
+}
+
+h3.entry-header {
+display: block;
+text-align: justify;
+text-align-last: justify;
+}
+
+h3.entry-header:after {
+content: "";
+display: inline-block;
+width: 100%;
+}
+
+.entry-content {
+margin-top: 20px;
+}
+
+a {
+color: #000;
+text-decoration: underline;
+}
+
+
+/* Edit Links */
+.editlink-container { 
+margin: 0 0 10px 0;
+}
+
+.editlink { 
+background: #ddd; 
+padding: 5px 8px;
+border-radius: 6px;
+}
+
+.editlink:hover { 
+background: #eee; 
+}
+
+
+/* ph=1 */
